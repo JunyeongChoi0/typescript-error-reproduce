@@ -9,9 +9,15 @@
   "keywords": [],
   "author": "Segev Finer <segev208@gmail.com>",
   "license": "Unlicense",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.10",
-    "typescript": "^5.5.3"
+    "typescript": "^5.6.2"
+  },
+  "imports": {
+    "#*": "./src/*"
   }
 }

@@ -1,2 +1,3 @@
-// import { FOO } from "./foo";
-// import { FOO } from "./foo.js";
+import { FOO } from "#libs/foo.ts";
+
+console.log(FOO);
